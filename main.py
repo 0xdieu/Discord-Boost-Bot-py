@@ -44,4 +44,4 @@ async def on_ready():
     print(client.user.name)
     game = discord.Game(name=f"Boost Bot v2")
     await client.change_presence(status=discord.Status.online, activity=game)
-client.run("MTA3NTQxODk0NzM5MTg2NDg4Mg.GRLcDs.rNZniXM3s3zvzazmb0VMCoHw4DHUdJoWfXASIM")
+client.run("bot token")
